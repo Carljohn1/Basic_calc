@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mx-auto my-40 px-4 py-5 text-center">
+      <h1 id="heading" class="font-bold text-5xl">0</h1>
+      <div>
+        <input
+          type="text"
+          placeholder="Enter a number"
+          id="num1"
+          class="py-2 px-4 my-4 mx-5 border-2 border-black"
+        />
+        <input
+          type="text"
+          placeholder="Enter a number"
+          id="num2"
+          class="py-2 px-4 my-4 mx-5 border-2 border-black"
+        />
+      </div>
+      <div class="btns my-5">
+        <button class="bg-black text-white py-2 px-4" onclick="add()">+</button>
+        <button class="bg-black text-white py-2 px-4" onclick="sub()">-</button>
+        <button class="bg-black text-white py-2 px-4" onclick="mul()">*</button>
+        <button class="bg-black text-white py-2 px-4" onclick="div()">/</button>
+      </div>
+      <!-- <button class="bg-black text-white py-2 px-4 my-4" onclick="calc()">
+        Submit
+      </button> -->
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
